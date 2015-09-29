@@ -319,7 +319,7 @@ function download_dependencies {
             apt_get install python-lxml python-redis python-jsonpickle
             apt_get install ant debhelper 
             apt_get install linux-headers-$(uname -r)
-            apt_get install libipfix
+            apt_get install libipfix libipfix-dev
             apt_get install python-docker-py
         fi	
         apt_get install python-neutron
